@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+    <user id="001" type="client">
+        <name nickname="Barb">
+            <first>Barbara</first>
+            <last>Cam</last>
+        </name>
+        <login>
+           <username>bcam</username>
+           <password>896f78b43f66502b79d96e71a916f82d</password>
+           <!--Password: barb1-->
+        </login>
+    </user>
+    <user id="002" type="client">
+        <name nickname="Lou">
+            <first>Louise</first>
+            <last>Johnson</last>
+        </name>
+        <login>
+           <username>ljohnson</username>
+           <password>4229b04d76fd938cd725d012a8f7babd</password>
+           <!--Password: lou5-->
+        </login>
+    </user>
+    <user id="003" type="client">
+        <name nickname="Suzy">
+            <first>Suzanne</first>
+            <last>Li</last>
+        </name>
+        <login>
+           <username>sli</username>
+           <password>05285b284a9cc0e8ce2ddfe553721c61</password>
+           <!--Password: suz6-->
+        </login>
+    </user>
+    <user id="004" type="staff">
+       <name nickname="Support Staff">
+            <first>Pedro</first>
+            <last>Smith</last>
+        </name>
+        <login>
+           <username>staff</username>
+           <password>434990c8a25d2be94863561ae98bd682</password>
+           <!--Password:support-->
+        </login>
+    </user>
+</users>

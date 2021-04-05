@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickets>
+    <supportticket>
+        <tid>1</tid>
+        <status>on-going</status>
+        <subject>Item Missing</subject>
+        <opendate>2020-10-20</opendate>        
+        <messages>
+            <message id="001" TimeStamp="2020-12-20T09:00:00">Where is my item?</message>
+            <message id="001" TimeStamp="2020-12-23T13:00:05">No response yet?</message>
+            <message id="002" TimeStamp="2020-12-25T01:01:02">Sorry for the delay, we will get back at you in few days.</message>
+        </messages>
+        <creator>
+            <username>bcam</username>
+            <id>001</id>
+        </creator>
+        <client>001</client>
+    </supportticket>
+    <supportticket>
+        <tid>2</tid>
+        <status>resolved</status>
+        <subject>Item Broken</subject>
+        <opendate>2019-11-14</opendate>        
+        <messages>
+            <message id="003" TimeStamp="2019-11-30T12:08:02">My Item is broken</message>
+            <message id="002" TimeStamp="2019-12-03T11:11:12">We apologize, we will send a new one</message>
+            <message id="003" TimeStamp="2019-12-20T13:31:52">Thanks, you were very helpful.</message>
+        </messages>
+        <creator>
+            <username>bcam</username>
+            <id>003</id>
+        </creator>
+        <client>003</client>
+    </supportticket> 
+    <supportticket>
+        <tid>3</tid>
+        <status>resolved</status>
+        <subject>Failing Payment</subject>
+        <opendate>2020-01-06</opendate>        
+        <messages>
+            <message id="002" TimeStamp="2020-01-06T06:05:02">Sorry the credit card is invalid, would you like to pay in different way?</message>
+            <message id="001" TimeStamp="2020-01-07T21:41:08">I called the bank and they fixed it. Please try again!</message>
+            <message id="002" TimeStamp="2020-01-07T11:41:02">Working! Thanks for your payment.</message>
+        </messages>
+        <creator>
+            <username>staff</username>
+            <id>001</id>
+        </creator>
+        <client>001</client>
+    </supportticket> 
+</tickets>

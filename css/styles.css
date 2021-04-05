@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700&display=swap');
+
+/* -- Basics -- */
+
+html { box-sizing:border-box; 
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+body {
+    font-family:'Lato', sans-serif;
+	font-weight:normal;    
+}
+h1,h2,h3, form label, #bye, footer {
+    font-family: 'Roboto', sans-serif;
+    color: darkblue;
+}
+header, footer {    
+    display: flex;
+    background-color:skyblue;
+    display:flex;
+	flex-flow:row wrap;	
+}
+h1, #bye {
+    font-size: 36px;    
+}
+#bye {
+    border-radius: 3px;
+    color:skyblue;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+}
+h3, label{
+    font-size: 22px;    
+}
+/* --Nav-- */
+
+#logB {
+    margin-left: 80px;
+    padding: 10px 50px;
+}
+#logo {
+    padding-left: 20px;
+}
+#logo, #navig {
+	flex:1 0 0;
+    position:relative;	
+}
+#nav-links li {
+	display:inline-block;
+	list-style-type:none;
+	padding:0 55px;
+	font-weight:bold;
+	font-size:20px;
+}
+ #nav-links { 	
+ 	height:70px;
+ 	padding:25px 0; 
+}
+ul li {
+    list-style-type: none;   
+}
+a {
+    text-decoration:none;
+    color:purple; 
+}
+a:hover {
+  color:darkmagenta;
+}
+a:visited {
+  color:blue;
+}
+
+/* --Forms-- */
+
+.form-div {
+    display: block;
+    padding: 10px;
+}
+.form-div input[type=text] {    
+    padding: 5px 20px;
+}
+.form-div input[type=password] {    
+    padding: 5px 20px;
+}
+#logindiv {
+    text-align: center;
+}
+/* --Table-- */
+
+th {
+    font-size: 20px;
+    padding: 0 25px;
+    background-color: skyblue;
+}
+td {    
+    padding: 10px 45px;
+}
+#sub {
+    padding-left: 15px;    
+}
+#subject {
+    padding: 8px 150px;
+}
+.bt, .back {
+    border-radius: 8px;
+    padding: 8px;
+    background-color:lightcoral;
+    }
+#theuser {
+    color:lightcoral;
+}
+
+/* View.php  */
+
+#lab span, .chat-mes {
+    font-weight:400;
+    color: darkblue;    
+}
+.lab {
+    font-size: 18px; 
+    font-weight: bold;     
+}
+.lab span {
+    font-size: 18px; 
+     font-weight: 300;    
+}
+.chat-div {
+    display: block;    
+    padding:  5px 15px;
+}
+.chat-div button {
+    margin-left: 60px;
+}
+.linkback {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+

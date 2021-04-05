@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user id="001" type="client">
+        <name nickname="Barb">
+            <first>Barbara</first>
+            <last>Cam</last>
+        </name>        
+        <username>bcam</username>
+        <password>barb1</password>
+           <!--Password: 896f78b43f66502b79d96e71a916f82d-->       
+    </user>
+    <user id="003" type="client">
+        <name nickname="Lou">
+            <first>Louise</first>
+            <last>Johnson</last>
+        </name>
+        <username>ljohnson</username>
+        <password>lou5</password>
+         <!--Password: 4229b04d76fd938cd725d012a8f7babd-->        
+    </user>
+    <!--<user id="004" type="client">
+        <name nickname="Suzy">
+            <first>Suzanne</first>
+            <last>Li</last>
+        </name>        
+           <username>sli</username>
+           <password>05285b284a9cc0e8ce2ddfe553721c61</password>
+           <!Password: suz6       
+    </user> -->
+    <user id="002" type="staff">
+       <name nickname="Support Staff">
+            <first>Pedro</first>
+            <last>Smith</last>
+        </name>
+        <username>staff</username>
+        <password>support</password>
+        <!--Password:434990c8a25d2be94863561ae98bd682-->        
+    </user>
+</users>
